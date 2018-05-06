@@ -58,7 +58,7 @@ header.startup h1 {
   cursor: pointer;
 }
 
-#mc_embed_signup {
+.clear {
   display: flex;
   align-items: center;
   justify-content: center;
