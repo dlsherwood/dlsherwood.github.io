@@ -58,7 +58,7 @@ header.startup h1 {
   cursor: pointer;
 }
 
-form {
+form, .container {
   display: flex;
   justify-content: center;
   align-items: center;
