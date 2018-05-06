@@ -43,7 +43,7 @@ header.startup h1 {
 }
 
 .btn-xl {
-  padding: 1rem 1rem; 
+  padding: 1rem 2rem; 
 }
 
 .btn-primary {
@@ -59,12 +59,6 @@ header.startup h1 {
 }
 
 form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
   display: flex;
   justify-content: center;
   align-items: center;
