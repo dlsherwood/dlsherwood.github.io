@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="logo">
+		<div class="logoFirst">javascript</div><br>
+		<div class="logoLast">Calculator</div>
+	</div>
+	<div class="calcBody">
+		<div class="num">
+			<button type="button" value=1 name="1" onclick="numFunction(this.value)">1</button>
+			<button type="button" value=2 name="2" onclick="numFunction(this.value)">2</button>
+			<button type="button" value=3 name="3" onclick="numFunction(this.value)">3</button>
+			<button type="button" value=4 name="4" onclick="numFunction(this.value)">4</button>
+			<button type="button" value=5 name="5" onclick="numFunction(this.value)">5</button>
+			<button type="button" value=6 name="6" onclick="numFunction(this.value)">6</button>
+			<button type="button" value=7 name="7" onclick="numFunction(this.value)">7</button>
+			<button type="button" value=8 name="8" onclick="numFunction(this.value)">8</button>
+			<button type="button" value=9 name="9" onclick="numFunction(this.value)">9</button>
+			<button class="oper" type="button" value="clear" name="clear" onclick="numFunction(this.value)">C</button>
+			<button type="button" value=0 name="0" onclick="numFunction(this.value)">0</button>
+			<button class="oper" type="button" value="equal" name="equal" onclick="numFunction(this.value)">=</button>
+		</div>
+		<div class="oper">
+			<button class="oper" type="button" value="add" name="add" onclick="numFunction(this.value)">+</button>
+			<button class="oper" type="button" value="subtract" name="subtract" onclick="numFunction(this.value)">-</button>
+			<button class="oper" type="button" value="multiply" name="multiply" onclick="numFunction(this.value)">*</button>
+			<button class="oper" type="button" value="divide" name="divide" onclick="numFunction(this.value)">/</button>
+		</div>
+	</div>
+	<div class="myScreen">
+	<footer name="scrField" id="scrField">0</footer>
+	</div>
+</body>
+</html>
